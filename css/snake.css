@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #8e8021, #383e42);
+    height: 100vh;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 555;
+    height: 555;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 77px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8e8021;
+    text-decoration: underline;
+}
